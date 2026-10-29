@@ -31,3 +31,8 @@ Run `brak_compare_deliverables.R` first; the other two can run in any order. Set
 ## License
 
 GPL-3.0, see `LICENSE`.
+
+# AI Disclaimer
+
+The scripts were written with help from Claude (Anthropic), an AI assistant, which drafted and debugged most of the code from the author’s instructions. 
+The author designed the analysis, ran every script on the delivered data, checked the outputs, and is responsible for the code and the results.
