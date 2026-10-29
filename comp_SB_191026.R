@@ -18,7 +18,7 @@ library(data.table)   # only for fast reading
 library(tidyverse)
 
 out   <- "C:/Users/au710823/OneDrive - Aarhus universitet/PolicySupport/Brak"
-plots <- file.path(out, "plots")
+plots <- file.path(out, "plots2")
 dir.create(plots, showWarnings = FALSE)
 
 theme_set(theme_bw(base_size = 10))
@@ -26,7 +26,7 @@ ver_cols <- c(may = "#1b9e77", aug = "#7570b3", oct = "#d95f02")
 
 
 # ---- 0. Read the sample ------------------------------------------------------
-smp <- fread(file.path(out, "sample10pct_may_aug_oct.csv"), sep = ";") %>%
+smp <- fread(file.path(out, "sample10pct_may_aug_oct20.csv"), sep = ";") %>%
   as_tibble()
 
 dim(smp)   # expected: 385252 x 86

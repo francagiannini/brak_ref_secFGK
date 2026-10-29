@@ -6,7 +6,8 @@
 library(data.table)
 
 # Paths (if the å in the folder names causes trouble, see the note below)
-f_may <- "O:/Tech_AGRO/Klima/cdb/_12784_oplandsmodel/data/Til_eva/Vaarbyg_vinterhvede060726/Nleaching_output_ data_2021vByg_csemicol.txt"
+f_may1 <- "O:/Tech_AGRO/Klima/cdb/_12784_oplandsmodel/data/Til_eva/Vaarbyg_vinterhvede060726/Nleaching_output_ data_2021vByg_csemicol.txt"
+f_may2 <- "O:/Tech_AGRO/Klima/cdb/_12784_oplandsmodel/data/Til_eva/Nleaching_output_ data_2021SB_ccsemicol.txt"
 f_aug <- "O:/Tech_AGRO/Klima/cdb/_12784_oplandsmodel/data/Til_eva/Vårbyg_vinterhvede_270726/Nleaching_output_ data_2021vByg_csemicol.txt"
 f_oct <- "O:/Tech_AGRO/Klima/cdb/_12784_oplandsmodel/data/Til_eva/Vårbyg_m_udlæg121026/Nleaching_output_ data_2021vByg_csemicol191026_extracol.txt"
 
@@ -65,7 +66,7 @@ dim(smp)
 rm(s_may, s_aug, s_oct); gc()
 
 # Save it, so next time you can start from here instead of the 700 MB files
-fwrite(smp, "C:/Users/au710823/OneDrive - Aarhus universitet/PolicySupport/Brak/sample10pct_may_aug_oct.csv", sep = ";")
+fwrite(smp, "C:/Users/au710823/OneDrive - Aarhus universitet/PolicySupport/Brak/sample10pct_may_aug_oct20.csv", sep = ";")
 # smp <- fread("C:/Users/au710823/OneDrive - Aarhus universitet/PolicySupport/Brak/sample10pct_may_aug_oct.csv")
 
 # Which inputs/outputs changed, May -> Aug and Aug -> Oct (number of cells)
