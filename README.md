@@ -4,10 +4,10 @@ R scripts behind the DCA advisory paper **"Braklægningspunkt: version control o
 
 Between May and October 2026, AU delivered N leaching data (NUAR, 100 m cells) to SGAV four times, as file geodatabases, for spring barley with catch crop and winter wheat:
 
-- del v1 (29 May)
-- del v2 (4 June)
-- del v3 (28 July)
-- del corr (20 October, spring barley only)
+- v1 (29 May)
+- v2 (4 June)
+- v3 (28 July)
+- corr (20 October, spring barley only)
 
 These scripts compare the deliveries cell by cell to document what changed from one version to the next, and why. They also check that the files SEGES used are AU's deliverables, and which P-term (runoff) delivery each one is based on. The data themselves are not included.
 
